@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .status-badge {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-medium;
+  }
+  .status-pending {
+    @apply bg-warning-50 text-warning-700 border border-warning-200;
+  }
+  .status-pass {
+    @apply bg-success-50 text-success-700 border border-success-200;
+  }
+  .status-fail {
+    @apply bg-error-50 text-error-700 border border-error-200;
+  }
+}

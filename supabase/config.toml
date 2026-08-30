@@ -1,0 +1,5 @@
+[functions.create-verify-link]
+verify_jwt = false
+
+[functions.check-verify-status]
+verify_jwt = false
